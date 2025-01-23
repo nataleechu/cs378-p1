@@ -1,0 +1,150 @@
+body {
+    color: hotpink;
+}
+h3 {
+    color: orange;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    margin: 10px;
+}
+h1 {
+    color: grey;
+    margin: 20;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.logo {
+    align-content: center;
+    margin: 10px;
+    width: 50%;
+}
+.menu {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+  }
+  
+  .menuitem {
+    display: flex;
+    margin: 15px; 
+    align-items: flex-start; 
+    padding: 10px;
+  }
+  
+  .menuimage {
+    height: auto;
+    width: auto;
+    aspect-ratio: 9 / 10;
+    max-width: 100px;
+    max-height: 140px;
+    margin-right: 10px;
+    object-fit: cover; 
+    border-radius: 5px;
+  }
+  
+  .menutext {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: black;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .priceandbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; 
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .add {
+    background-color: rgb(235, 229, 229);
+    color: black;
+    border: none;
+    padding: 1px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: drop-shadow(0px 1px gray);
+  }
+  
+  .add:hover {
+    background-color: #0056b3;
+  }
+  
+/* .menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menuitem {
+    margin: 15px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menutext {
+    padding-left: 10px;
+}
+
+.priceandbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+#add {
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+#title {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+#description {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+#price {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+#add {
+    font-size: 10px;
+}
+#menuimage {
+    border-radius: 5px;
+    object-fit: cover;
+} */
