@@ -23,8 +23,7 @@ h1 {
     align-content: center;
     margin: 10px;
     width: 50%;
-    width: auto;
-    max-height: 70px;
+    max-height: 10%;
 }
 .menu {
     width: 85%;
